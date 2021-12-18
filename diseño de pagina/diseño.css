@@ -38,33 +38,10 @@
     /* el body tenia un gradiente pero cuando ponia el media no cambia de colo asi que lo saque por ahora*/
     
     body {
-        background-color: rgb(76, 76, 240);
+        background-image: linear-gradient( to top, black, gold);
         color: rgb(255, 255, 255);
         font-size: 18px;
         line-height: 1.6;
-    }
-    
-    @media only screen and (min-width:500px) {
-        body {
-            background-color: #310e68
-        }
-        h1 {
-            font-size: 2;
-            color: rgba(10, 95, 95, 0.952);
-        }
-        .medioFondo {
-            background-color: rgba(255, 0, 0, 0.404);
-            width: 65%;
-            margin: auto;
-            padding: auto;
-            box-shadow: hsl(0, 100%, 100%) 1px 5px 25px;
-            border-radius: 6px;
-        }
-        .medio {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
     }
     
     .medioFondo {
@@ -99,17 +76,44 @@
         border-radius: 6px;
         position: relative;
         left: 20%;
+        margin-top: 15px;
+    }
+    
+    .ironmanimg {
+        transition: all 2s ease;
+    }
+    
+    .ironmanimg:hover {
+        transform: scale(1.1, 1.1);
     }
     
     .hulk {
         border-radius: 6px;
         position: relative;
         left: 13%;
+        margin-top: 15px;
+    }
+    
+    .hulkimg {
+        transition: all 2s ease;
+    }
+    
+    .hulkimg:hover {
+        transform: scale(1.1, 1.1);
     }
     
     .ironman2 {
         position: relative;
         left: 20%;
+        margin-top: 15px;
+    }
+    
+    .ironman2img {
+        transition: all 2s ease;
+    }
+    
+    .ironman2img:hover {
+        transform: scale(1.1, 1.1);
     }
     
     .thor {
@@ -117,14 +121,38 @@
         left: 20%;
     }
     
+    .thorimg {
+        transition: all 2s ease;
+    }
+    
+    .thorimg:hover {
+        transform: scale(1.1, 1.1);
+    }
+    
     .capitan {
         position: relative;
         left: 13.5%;
     }
     
+    .capitanimg {
+        transition: all 2s ease;
+    }
+    
+    .capitanimg:hover {
+        transform: scale(1.1, 1.1);
+    }
+    
     .losvengadores {
         position: relative;
         left: 20%;
+    }
+    
+    .vengadoresimg {
+        transition: all 2s ease;
+    }
+    
+    .vengadoresimg:hover {
+        transform: scale(1.1, 1.1);
     }
     
     footer {
