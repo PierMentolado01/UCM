@@ -1,0 +1,165 @@
+    * {
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    nav {
+        background-color: rgba(0, 0, 0, 0.705);
+        text-align: center;
+        box-shadow: rgb(255, 255, 255) 1px 5px 25px;
+    }
+    
+    .menu {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .menu li {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: rgb(250, 250, 250);
+    }
+    
+    .menu li a:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgba(32, 178, 171, 0);
+        border-radius: 60%;
+        border: rgba(224, 0, 0, 0) solid;
+        box-shadow: rgb(255, 255, 255) 1px 5px 25px;
+    }
+    /* el body tenia un gradiente pero cuando ponia el media no cambia de colo asi que lo saque por ahora*/
+    
+    body {
+        background-color: rgb(76, 76, 240);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    
+    @media only screen and (min-width:500px) {
+        body {
+            background-color: #310e68
+        }
+        h1 {
+            font-size: 2;
+            color: rgba(10, 95, 95, 0.952);
+        }
+        .medioFondo {
+            background-color: rgba(255, 0, 0, 0.404);
+            width: 65%;
+            margin: auto;
+            padding: auto;
+            box-shadow: hsl(0, 100%, 100%) 1px 5px 25px;
+            border-radius: 6px;
+        }
+        .medio {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    .medioFondo {
+        background-color: rgba(0, 0, 0, 0.705);
+        width: 85%;
+        margin: auto;
+        padding: auto;
+        box-shadow: rgb(255, 255, 255) 1px 5px 25px;
+        border-radius: 6px;
+    }
+    
+    .medio {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        color: whitesmoke;
+    }
+    
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        color: whitesmoke;
+    }
+    
+    .ironman {
+        border-radius: 6px;
+        position: relative;
+        left: 20%;
+    }
+    
+    .hulk {
+        border-radius: 6px;
+        position: relative;
+        left: 13%;
+    }
+    
+    .ironman2 {
+        position: relative;
+        left: 20%;
+    }
+    
+    .thor {
+        position: relative;
+        left: 20%;
+    }
+    
+    .capitan {
+        position: relative;
+        left: 13.5%;
+    }
+    
+    .losvengadores {
+        position: relative;
+        left: 20%;
+    }
+    
+    footer {
+        background-color: rgba(0, 0, 0, 0.705);
+        text-align: center;
+        box-shadow: rgb(255, 255, 255) 1px 5px 25px;
+    }
+    
+    .redes li {
+        display: inline-block;
+    }
+    /*pagina ironman*/
+    
+    .ironmanPagina2 img {
+        font-size: 16px;
+        line-height: 1.7;
+        float: right;
+        margin-right: 5px;
+        margin-left: 4px;
+        box-shadow: black 1px 5px 25px;
+        border-radius: 6px;
+    }
+    
+    .repartoIron {
+        width: 60%;
+        height: 40%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, 2fr);
+        gap: 20px;
+        position: relative;
+        left: 5%;
+    }
+    
+    .trailer {
+        position: relative;
+        left: 25%;
+    }
