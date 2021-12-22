@@ -127,7 +127,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.705);
     text-align: center;
     box-shadow: rgb(255, 255, 255) 1px 5px 25px;
-    padding: 10px;
+    position: absolute;
+    bottom: 0;
 }
 
 .redes li {
