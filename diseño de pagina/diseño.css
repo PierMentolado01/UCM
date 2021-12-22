@@ -127,8 +127,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.705);
     text-align: center;
     box-shadow: rgb(255, 255, 255) 1px 5px 25px;
-    position: absolute;
-    bottom: 0;
+    padding: 10px;
 }
 
 .redes li {
@@ -168,7 +167,7 @@ footer {
 
 /*barra de navegacion*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
     nav {
         background-color: rgba(0, 0, 0, 0.705);
         text-align: center;
@@ -199,7 +198,7 @@ footer {
 
 /*main*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
     .medioFondo {
         background-color: rgba(44, 44, 44, 0.651);
         width: 85%;
@@ -210,7 +209,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
     .medio {
         grid-template-columns: 1fr;
         grid-template-rows: repeat( 6, 1fr);
@@ -220,7 +219,7 @@ footer {
 
 /*multimedia*/
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:576px) {
     .multimedia {
         width: 375px;
         position: relative;
@@ -231,7 +230,7 @@ footer {
 
 /*footer*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
     footer {
         background-color: rgba(0, 0, 0, 0.705);
         text-align: center;
