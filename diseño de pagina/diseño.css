@@ -8,6 +8,8 @@ nav {
     background-color: rgba(0, 0, 0, 0.705);
     text-align: center;
     box-shadow: rgb(255, 255, 255) 1px 5px 25px;
+    position: relative;
+    bottom: 0%;
 }
 
 .menu {
@@ -53,7 +55,7 @@ body {
 
 .medioFondo {
     background-color: rgba(0, 0, 0, 0.705);
-    width: 85%;
+    width: 75%;
     margin: auto;
     padding: auto;
     box-shadow: rgb(255, 255, 255) 1px 5px 25px;
@@ -65,7 +67,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    gap: 5px;
 }
 
 h1 {
@@ -82,7 +84,7 @@ h2 {
 .ironman {
     border-radius: 6px;
     position: relative;
-    left: 25%;
+    left: 20%;
     margin-top: 15px;
 }
 
@@ -98,36 +100,35 @@ h2 {
 .hulk {
     border-radius: 6px;
     position: relative;
-    left: 25%;
+    left: 20%;
     margin-top: 15px;
 }
 
 .ironman2 {
     position: relative;
-    left: 25%;
+    left: 20%;
     margin-top: 15px;
 }
 
 .thor {
     position: relative;
-    left: 25%;
+    left: 20%;
 }
 
 .capitan {
     position: relative;
-    left: 25%;
+    left: 20%;
 }
 
 .losvengadores {
     position: relative;
-    left: 25%;
+    left: 20%;
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.705);
     text-align: center;
     box-shadow: rgb(255, 255, 255) 1px 5px 25px;
-    padding: 10px;
 }
 
 .redes li {
@@ -167,7 +168,7 @@ footer {
 
 /*barra de navegacion*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
     nav {
         background-color: rgba(0, 0, 0, 0.705);
         text-align: center;
@@ -198,10 +199,10 @@ footer {
 
 /*main*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
     .medioFondo {
         background-color: rgba(44, 44, 44, 0.651);
-        width: 85%;
+        width: 75%;
         margin: auto;
         padding: auto;
         box-shadow: rgba(255, 0, 0, 0) 1px 5px 25px;
@@ -209,7 +210,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
     .medio {
         grid-template-columns: 1fr;
         grid-template-rows: repeat( 6, 1fr);
@@ -219,7 +220,7 @@ footer {
 
 /*multimedia*/
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 12000px) {
     .multimedia {
         width: 375px;
         position: relative;
@@ -230,7 +231,7 @@ footer {
 
 /*footer*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
     footer {
         background-color: rgba(0, 0, 0, 0.705);
         text-align: center;
