@@ -167,7 +167,7 @@ footer {
 
 /*barra de navegacion*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 420px) {
     nav {
         background-color: rgba(0, 0, 0, 0.705);
         text-align: center;
@@ -198,7 +198,7 @@ footer {
 
 /*main*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 420px) {
     .medioFondo {
         background-color: rgba(44, 44, 44, 0.651);
         width: 85%;
@@ -209,7 +209,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 420px) {
     .medio {
         grid-template-columns: 1fr;
         grid-template-rows: repeat( 6, 1fr);
@@ -219,7 +219,7 @@ footer {
 
 /*multimedia*/
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:420px) {
     .multimedia {
         width: 375px;
         position: relative;
@@ -230,7 +230,7 @@ footer {
 
 /*footer*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 420px) {
     footer {
         background-color: rgba(0, 0, 0, 0.705);
         text-align: center;
