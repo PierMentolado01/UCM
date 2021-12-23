@@ -14,28 +14,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <!--google fonts-->
-    <link rel="stylesheet" href="../diseño de pagina/diseño.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../css/diseño.css">
     <title>Registrase</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <h1>
-                Universo Cinematografico De Marvel
-            </h1>
-            <a href="../index.html"><img src="../fotos/ucm.png" width="150px" alt="ucm logo"></a>
-            <h2><em>Registro</em></h2>
-            <ul>
-                <ul class="menu">
-                    <li><a href="../index.html">Fase Uno</a></li>
-                    <li><a href="*">Fase Dos</a></li>
-                    <li><a href="*">Fase Tres</a></li>
-                    <li><a href="*">Fase Cuatro</a></li>
-                    <li><a href="./pages/registrase.html" target="_blank">Iniciar Sesion</a></li>
-                    <li><a href="#top">Contactos</a></li>
-                </ul>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light transparente">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../fotos/ucm.png" width="120px" alt="ucm logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/fase1.html">Fase Uno</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Dos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Tre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Cuatro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Contatcto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <br>
@@ -120,7 +136,10 @@
         </ul>
         <p>&copy; 2021</p>
     </footer>
-
+    <!--js-->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../js/bootstrap.js"></script>
+    <!--js-->
 </body>
 
 </html>

@@ -4,61 +4,53 @@
     box-sizing: border-box;
 }
 
-nav {
-    background-color: rgba(0, 0, 0, 0.705);
-    text-align: center;
+.transparente {
+    background-color: #7F0F0B;
     box-shadow: rgb(255, 255, 255) 1px 5px 25px;
-    position: relative;
-    bottom: 0%;
-}
-
-.menu {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 20px;
-    display: flex;
-    flex-direction: flex-row;
-    justify-content: flex-end;
-    justify-content: space-around;
-    font-family: 'Oswald', sans-serif;
-}
-
-.menu li {
-    display: inline-block;
-    text-align: center;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.menu li a:hover {
-    color: rgb(252, 252, 252);
-    background-color: rgba(247, 8, 8, 0);
-    border: rgba(224, 0, 0, 0) solid;
-    background-color: rgba(205, 134, 63, 0);
-    border-radius: 60%;
-    box-shadow: rgba(255, 255, 255, 0) 1px 5px 25px
+    border-radius: 6px;
 }
 
 
 /* el body tenia un gradiente pero cuando ponia el media no cambia de colo asi que lo saque por ahora*/
 
 body {
-    background-image: linear-gradient( to bottom, #C4A8FF, #664EAE, #1A0554, #0C0B13);
+    background-color: #1F262A;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     font-family: 'Rubik', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .contenerdor {
-    background-color: rgba(0, 0, 0, 0.705);
-    width: 55%;
+    background-color: rgb(59, 57, 57);
+    width: 75%;
     margin: auto;
     padding: auto;
-    box-shadow: rgb(255, 255, 255) 1px 5px 25px;
+}
+
+.mediofase1 {
+    background-color: rgb(59, 57, 57);
+    width: 75%;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    right: 10%;
+}
+
+aside {
+    width: 19%;
+    background-color: rgb(59, 57, 57);
+    float: right;
+    padding: 15px;
+    position: relative;
+    right: 3%;
+    bottom: auto;
+    margin-right: 5px;
+}
+
+.imgaside {
+    box-shadow: black 1px 5px 25px;
     border-radius: 6px;
 }
 
@@ -70,15 +62,32 @@ body {
     gap: .5px;
 }
 
+.medioindex {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     font-family: 'Raleway', sans-serif;
-    color: whitesmoke;
+    color: rgb(250, 246, 246);
+    text-align: center;
+    background-color: #7F0F0B;
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
     color: whitesmoke;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr {
+    color: black;
+    border: solid 2px;
 }
 
 .imgfase1 {
@@ -90,7 +99,7 @@ h2 {
 
 .img {
     transition: all 2s ease;
-    border: solid #37345e 3px;
+    border: solid #7F0F0B 3px;
 }
 
 .img:hover {
@@ -102,6 +111,7 @@ footer {
     text-align: center;
     box-shadow: rgb(255, 255, 255) 1px 5px 25px;
     display: flex;
+    background-color: #7F0F0B;
 }
 
 footer li {
@@ -119,11 +129,11 @@ footer li {
 .ironmanPagina2 img {
     font-size: 16px;
     line-height: 1.7;
-    float: right;
     margin-right: 5px;
     margin-left: 4px;
     box-shadow: black 1px 5px 25px;
     border-radius: 6px;
+    float: left;
 }
 
 .repartoIron {
@@ -138,9 +148,14 @@ footer li {
 }
 
 .multimedia {
+    width: 80%;
     position: relative;
-    left: 25%;
-    border: solid #34495E 3px;
+    left: 20px;
+}
+
+.imgsinopsis {
+    position: relative;
+    bottom: 100px;
 }
 
 
@@ -211,20 +226,12 @@ footer li {
 
 /*multimedia*/
 
-@media screen and (max-width: 12000px) {
-    .multimedia {
-        width: 375px;
-        position: relative;
-        left: 5%;
-    }
-}
-
 
 /*footer*/
 
 @media screen and (max-width: 1200px) {
     footer {
-        background-color: rgba(0, 0, 0, 0.705);
+        background-color: #7F0F0B;
         text-align: center;
         box-shadow: rgba(255, 0, 0, 0) 1px 5px 25px;
         padding: 15px;

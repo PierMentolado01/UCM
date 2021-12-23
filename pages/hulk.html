@@ -14,35 +14,104 @@
     <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@300&display=swap " rel="stylesheet ">
     <!--google fonts-->
-    <link rel="stylesheet " href="../diseño de pagina/diseño.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet " href="../css/diseño.css">
     <title>Hulk</title>
 </head>
 
 <body>
     <header>
-        <nav>
-
-            <img src="../fotos/ucm.png " width="150px " alt="ucm logo ">
-            <h1><em>Fase Uno</em></h1>
-            <!--agregar html para siguiente fases-->
-            <ul class="menu ">
-                <li><a href="../index.html">Fase Uno</a></li>
-                <li><a href="* ">Fase Dos</a></li>
-                <li><a href="* ">Fase Tres</a></li>
-                <li><a href="* ">Fase Cuatro</a></li>
-                <li><a href="./pages/registrase.html " target="_blank ">Iniciar Sesion</a></li>
-                <li><a href="#top ">Contactos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light transparente">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../fotos/ucm.png" width="120px" alt="ucm logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/fase1.html">Fase Uno</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Dos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Tre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Cuatro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/registrase.html">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Contatcto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <br>
     <main>
-        <section class=contenerdor>
+        <h1><em>Hulk</em></h1>
+        <aside><img class="imgaside" src="../fotos/hulk.png" width="200px" alt="hulk">
+            <h6>Director</h6>
+            <ul>
+                <li>Louis Leterrier</li>
+            </ul>
+            <hr>
+            <h6>Productores</h6>
+            <ul>
+                <li>Avi Arad</li>
+                <li>Stephen Broussard</li>
+                <li>Kevin Feige</li>
+                <li>Gale Anne Hurd</li>
+                <li>Stan Lee</li>
+                <li>David Maisel</li>
+                <li>Michael J. Malone</li>
+                <li>John G. Scotti</li>
+                <li>Jim Van Wyck</li>
+                <li>Kurt Williams</li>
+            </ul>
+            <hr>
+            <h6>Guionistas</h6>
+            <ul>
+                <li>Zak Penn</li>
+            </ul>
+            <hr>
+            <h6>Compositor</h6>
+            <ul>
+                <li>Craig Armstrong</li>
+            </ul>
+            <hr>
+            <h6>Informacion del Producto</h6>
+            <h6>Distribuidor</h6>
+            <ul>
+                <li>Universal Pictures</li>
+            </ul>
+            <hr>
+            <h6>Estreno</h6>
+            <ul>
+                <li>13 de junio de 2008 (EE.UU)</li>
+            </ul>
+            <hr>
+            <h6>Duracion</h6>
+            <ul>
+                <li>112 minutos</li>
+                <hr>
+                <h6>Recaudacion</h6>
+                <ul>
+                    <li>$263.4 millones</li>
+                </ul>
+            </ul>
+        </aside>
+        <section class=mediofase1>
             <div>
                 <article class="ironmanPagina2">
-                    <h2>HULK</h2>
                     <br>
-                    <img src="../fotos/hulk.png" width="250px" alt="ironman">
                     <p>The Incredible Hulk (Hulk: El Hombre Increíble en América Hispana y El Increíble Hulk en España) es una película de superhéroes basada en el superhéroe de Marvel Comics, Hulk. Se trata de la segunda entrega del Universo Cinematográfico
                         de Marvel, de la Saga del Infinito y de la Fase Uno. Se estrenó el 13 de junio de 2008 en Estados Unidos. Fue dirigida por Louis Leterrier, y fue protagonizada por Edward Norton como Bruce Banner / Hulk, Liv Tyler como Elizabeth
                         Ross, Tim Roth como Emil Blonsky / Abominación, y William Hurt como Thaddeus Ross.</p>
@@ -90,13 +159,9 @@
                 <iframe class="multimedia" width="560" height="315" src="https://www.youtube.com/embed/xbqNb2PFKKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <br>
                 <img class="multimedia" src="../fotos/Bluray_Box_-_The_Incredible_Hulk.png" width="560px" alt="hulk bluray">
+                <br>
             </div>
-
         </section>
-
-
-
-
     </main>
     <br>
     <footer id="top ">
@@ -116,7 +181,10 @@
         </ul>
         <p>&copy; 2021</p>
     </footer>
-
+    <!--js-->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../js/bootstrap.js"></script>
+    <!--js-->
 </body>
 
 </html>

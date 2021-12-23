@@ -14,35 +14,109 @@
     <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@300&display=swap " rel="stylesheet ">
     <!--google fonts-->
-    <link rel="stylesheet " href="../diseño de pagina/diseño.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet " href="../css/diseño.css">
     <title>Capitan America</title>
 </head>
 
 <body>
     <header>
-        <nav>
-
-            <img src="../fotos/ucm.png " width="150px " alt="ucm logo ">
-            <h1><em>Fase Uno</em></h1>
-            <!--agregar html para siguiente fases-->
-            <ul class="menu ">
-                <li><a href="../index.html">Fase Uno</a></li>
-                <li><a href="* ">Fase Dos</a></li>
-                <li><a href="* ">Fase Tres</a></li>
-                <li><a href="* ">Fase Cuatro</a></li>
-                <li><a href="./pages/registrase.html " target="_blank ">Iniciar Sesion</a></li>
-                <li><a href="#top ">Contactos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light transparente">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../fotos/ucm.png" width="120px" alt="ucm logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/fase1.html">Fase Uno</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Dos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Tre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fase Cuatro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/registrase.html">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Contatcto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <br>
     <main>
-        <section class=contenerdor>
+        <h1><em>Capitan America</em></h1>
+        <aside><img class="imgaside" src="../fotos/capitan america 1.png" width="200px" alt="capitan america">
+            <h6>Director</h6>
+            <ul>
+                <li>Kenneth Branagh</li>
+                <li>Joss Whedon</li>
+            </ul>
+            <hr>
+            <h6>Productores</h6>
+            <ul>
+                <li>Kevin Feige</li>
+                <li>Victoria Alonso</li>
+                <li>Mitchell Bell</li>
+                <li>Mike Bodkin</li>
+                <li>Stephen Broussard</li>
+                <li>Louis D'Esposito</li>
+                <li>Alan Fine</li>
+                <li>Nigel Gostelow</li>
+                <li>Joe Johnston</li>
+                <li>Stan Lee</li>
+                <li>David Maisel</li>
+                <li>Richard Whelan</li>
+            </ul>
+            <hr>
+            <h6>Guionistas</h6>
+            <ul>
+                <li>Christopher Markus</li>
+                <li>Stephen McFeely</li>
+            </ul>
+            <hr>
+            <h6>Compositor</h6>
+            <ul>
+                <li>Alan Silvestri</li>
+            </ul>
+            <hr>
+            <h6>Informacion del Producto</h6>
+            <h6>Distribuidor</h6>
+            <ul>
+                <li>Paramount Pictures</li>
+            </ul>
+            <hr>
+            <h6>Estreno</h6>
+            <ul>
+                <li>22 de julio de 2011 (EE.UU.)</li>
+                <li>29 de julio de 2011 (U.K.)</li>
+            </ul>
+            <hr>
+            <h6>Duracion</h6>
+            <ul>
+                <li>124 minutos</li>
+                <hr>
+                <h6>Recaudacion</h6>
+                <ul>
+                    <li>$370.6 millones</li>
+                </ul>
+            </ul>
+        </aside>
+        <section class="mediofase1">
             <div>
                 <article class="ironmanPagina2">
-                    <h2>CAPITAN AMERICA EL PRIMER VENGADOR</h2>
                     <br>
-                    <img src="../fotos/capitan america 1.png" width="250px" alt="ironman">
                     <p>Captain America: The First Avenger (Capitán América: El Primer Vengador en América Hispana y España) es una película de superhéroes basada en el superhéroe de Marvel Comics del mismo nombre. Se trata de la quinta entrega en el Universo
                         Cinematográfico de Marvel, de la Saga del Infinito y de la Fase Uno. Se estrenó el 22 de julio de 2011 en Estados Unidos. La película fue dirigida por Joe Johnston, y fue protagonizada por Chris Evans como Steven Rogers / Capitán
                         América, Tommy Lee Jones como Chester Phillips, Hugo Weaving como Johann Schmidt / Red Skull, Hayley Atwell como Margaret Carter, Sebastian Stan como James Barnes, Dominic Cooper como Howard Stark, Neal McDonough como Dum Dum Dugan,
@@ -128,7 +202,10 @@
         </ul>
         <p>&copy; 2021</p>
     </footer>
-
+    <!--js-->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../js/bootstrap.js"></script>
+    <!--js-->
 </body>
 
 </html>
