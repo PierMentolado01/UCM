@@ -17,7 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
     <!--google fonts-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--bootstrap-->
     <link rel="stylesheet " href="./diseño de pagina/diseño.css ">
     <title>UCM</title>
 </head>
@@ -27,10 +29,12 @@
         <nav>
 
             <img src="./fotos/ucm.png " width="150px " alt="ucm logo ">
-            <h1><em>Fase Uno</em></h1>
+            <h1><em>Universo Cinematografico Marvel</em></h1>
             <!--agregar html para siguiente fases-->
             <ul class="menu ">
-                <li>Fase Uno</li>
+                <li>
+                    <a href="./pages/fase1.html" target="_blank">Fase Uno</a>
+                </li>
                 <li><a href="* ">Fase Dos</a></li>
                 <li><a href="* ">Fase Tres</a></li>
                 <li><a href="* ">Fase Cuatro</a></li>
@@ -40,58 +44,10 @@
         </nav>
     </header>
     <br>
-    <main>
-        <section class="medioFondo">
+    <main class="container">
+        <section class="contenerdor">
             <div class="medio ">
 
-                <!--iron man-->
-                <section>
-                    <div class="imgfase1">
-                        <h5>IRON MAN (2008)</h5>
-                        <a href="./pages/ironman.html" target="_blank"><img class="img" src="./fotos/iron man 1.jpg" width="200px" alt="iron"></a>
-                    </div>
-                </section>
-
-                <!--hulk-->
-                <div class="imgfase1">
-                    <article>
-                        <h5>HULK (2008)</h5>
-                        <a href="./pages/hulk.html" target="_blank"><img class="img" src="./fotos/hulk.png" width="200px" alt="hulk"></a>
-                    </article>
-                </div>
-
-                <!--iron man 2-->
-                <section class="imgfase1">
-                    <div>
-                        <h5>IRON MAN 2 (2010)</h5>
-                        <a href="./pages/ironman2.html" target="_blank"><img class="img" src="./fotos/iron man 2.png" width="200px" alt="ironman2"></a>
-                        </article>
-                    </div>
-                </section>
-
-                <!--thor-->
-                <section class="imgfase1">
-                    <article>
-                        <h5>THOR (2011)</h5>
-                        <a href="./pages/thor.html" target="_blank"><img class="img" src="./fotos/thor 1.jpg" width="200px" alt="thor"></a>
-                    </article>
-                </section>
-
-                <!--capitan america-->
-                <section class="imgfase1">
-                    <article>
-                        <h5>CAPITAN AMERICA (2011)</h5>
-                        <a href="./pages/capitan.html" target="_blank"><img class="img" src="./fotos/capitan america 1.png" width="200px" alt="capitan"></a>
-                    </article>
-                </section>
-
-                <!--los vengadores-->
-                <section class="imgfase1">
-                    <article>
-                        <h5>LOS VENGADORES (2012)</h5>
-                        <a href="./pages/losvengadores.html" target="_blank"><img class="img" src="./fotos/los vengadores 1.jpg" width="200px" alt="losvengadores"></a>
-                    </article>
-                </section>
             </div>
         </section>
     </main>
@@ -113,8 +69,10 @@
         </ul>
         <p>&copy; 2021</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!--js-->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="./js/bootstrap.js"></script>
+    <!--js-->
 </body>
 
 </html>
